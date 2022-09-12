@@ -17,7 +17,7 @@ Given("I navigate to home page", async function () {
   await actions.click(selectors.cgu_accept);
 });
 
-When("I fill {word} in the bar search", async function (word) {
+When("I fill {string} in the bar search", async function (word) {
   await actions.fillText(selectors.search_bar, word);
 });
 

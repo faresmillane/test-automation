@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js features/*.feature"
+    "test": "cucumber-js features/*.feature"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,14 @@
   "dependencies": {
     "@cucumber/cucumber": "^8.5.3",
     "selenium-webdriver": "^4.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faresmillane/test-automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/faresmillane/test-automation/issues"
+  },
+  "homepage": "https://github.com/faresmillane/test-automation#readme"
 }
