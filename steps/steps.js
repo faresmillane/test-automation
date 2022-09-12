@@ -1,4 +1,4 @@
-const { Given, When, Then, setDefaultTimeout, AfterAll,setParallelCanAssign, BeforeAll, BeforeStep, AfterStep } = require("@cucumber/cucumber");
+const { Given, When, Then, setDefaultTimeout, AfterAll, BeforeAll } = require("@cucumber/cucumber");
 const actions = require('../helpers');
 const selectors = require('../selectors');
 setDefaultTimeout(100 * 5 * 3000);
