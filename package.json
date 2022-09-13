@@ -7,7 +7,7 @@
     "test": "cucumber-js features/*.feature"
   },
   "keywords": [],
-  "author": "",
+  "author": "fares.millane@gmail.com",
   "license": "ISC",
   "dependencies": {
     "@cucumber/cucumber": "^8.5.3",
